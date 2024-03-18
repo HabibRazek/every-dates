@@ -7,6 +7,7 @@ import { FAQ } from './faq';
 import OurProducts from "./our-products";
 import Benefits from "./benefits-degla";
 import WhatWeDo from "./what-we-do";
+import SnackCreation from "./snack-creation";
 
 export const Landing = () => {
   const navLinks = [
@@ -25,6 +26,7 @@ export const Landing = () => {
       <OurProducts />
       <Benefits />
       <WhatWeDo />
+      <SnackCreation />
       <FAQ />
       <Footer />
     </LandingLayout>
