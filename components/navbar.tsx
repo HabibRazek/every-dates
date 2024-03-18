@@ -23,8 +23,8 @@ export const Navbar = ({ links }: NavbarProps) => {
   };
 
   return (
-    <header className="bg-transparent text-sm py-3 dark:bg-gray-800 dark:border-gray-700">
-      <nav className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8" aria-label="Global">
+    <header className="bg-white/50 text-sm mb-4  dark:bg-gray-800 dark:border-gray-700">
+      <nav className="max-w-7xl   mx-auto px-4 sm:px-6 lg:px-8" aria-label="Global">
         <div className="flex justify-between items-center">
           <Link className="flex-none text-xl font-semibold" href="#" aria-label="Home">
             <div className="flex items-center ">

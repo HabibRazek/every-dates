@@ -1,8 +1,12 @@
+
 import { Navbar } from "@/components/navbar";
 import LandingLayout from './layout';
 import HeroSection from './hero-section';
 import { Footer } from './footer';
 import { FAQ } from './faq';
+import OurProducts from "./our-products";
+import Benefits from "./benefits-degla";
+import WhatWeDo from "./what-we-do";
 
 export const Landing = () => {
   const navLinks = [
@@ -14,8 +18,13 @@ export const Landing = () => {
 
   return (
     <LandingLayout>
+
       <Navbar links={navLinks} />
+
       <HeroSection />
+      <OurProducts />
+      <Benefits />
+      <WhatWeDo />
       <FAQ />
       <Footer />
     </LandingLayout>
