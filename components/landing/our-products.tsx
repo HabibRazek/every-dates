@@ -26,11 +26,11 @@ const OurProducts = () => {
             className='mx-auto w-14 animate-bounce'
           />
           <Link href="/products">
-            <p>
+            {/* <p>
               <Button variant="custom" className='rounded-full'>
                 Explore Our Products <span className='ml-2'><FaArrowRight /></span>
               </Button>
-            </p>
+            </p> */}
           </Link>
         </div>
       </div>

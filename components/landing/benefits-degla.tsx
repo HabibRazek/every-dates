@@ -48,40 +48,7 @@ const Benefits = () => {
         </div>
       </div>
 
-      {/* Nutritional Facts */}
-      <div className="w-full max-w-6xl sm:ml-40 grid grid-cols-1 md:grid-cols-3 gap-4 py-4">
-        <div className="text-left">
-          <h3 className="font-semibold mb-2">Vitamins:</h3>
-          <ul className="list-disc list-inside">
-            <li>Vitamin B6 8%</li>
-            <li>Niacin 6%</li>
-            <li>Pantothenic Acid 6%</li>
-            <li>Folate 5%</li>
-          </ul>
-        </div>
-        <div className="text-left">
-          <h3 className="font-semibold mb-2">Nutrients:</h3>
-          <ul className="list-disc list-inside">
-            <li>Dietary Fiber 32%</li>
-            <li>Carbohydrates 25%</li>
-            <li>Calories 14%</li>
-            <li>Protein 5%</li>
-          </ul>
-        </div>
-        <div className="text-left">
-          <h3 className="font-semibold mb-2">Minerals:</h3>
-          <ul className="list-disc list-inside">
-            <li>Potassium 19%</li>
-            <li>Manganese 13%</li>
-            <li>Magnesium 11%</li>
-            <li>Copper 10%</li>
-          </ul>
-        </div>
-      </div>
-
-      <p className="text-xs mt-4">
-        *Percentage of Daily Values based on 100g of dates.
-      </p>
+      
     </div>
     </>
   );

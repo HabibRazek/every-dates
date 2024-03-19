@@ -14,6 +14,7 @@ const LandingLayout = ({
       <div className="bg-[#f7d692] absolute top-[50rem] -z-10 left-[-35rem] h-[15.25rem] w-[50rem] rounded-full blur-[13rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#c2c8ff]"></div>
       <div className="bg-[#f7bf4f] absolute top-[100rem] -z-10 right-[5rem] h-[15rem] w-[31.25rem] rounded-full blur-[12rem] sm:w-[68.75rem] dark:bg-[#f7bf4f]"></div>
       <div className="bg-[#f7d692] absolute top-[140rem] -z-10 left-[-35rem] h-[15.25rem] w-[50rem] rounded-full blur-[13rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#c2c8ff]"></div>
+      <div className="bg-[#f7bf4f] absolute top-[180rem] -z-10 right-[5rem] h-[15rem] w-[31.25rem] rounded-full blur-[12rem] sm:w-[68.75rem] dark:bg-[#f7bf4f]"></div>
       {children}
     </div>
   );

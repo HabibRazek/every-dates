@@ -52,7 +52,7 @@ import Arabian from '../arabianbg';
 
 const WhatWeDo = () => {
   return (
-    <div className="relative mb-[1x] mt-5  overflow-hidden before:content-[''] sm:mt-[-1px] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-full before:h-full before:bg-no-repeat before:bg-top before:-z-10 ">
+    <div className="relative mb-[1x] overflow-hidden before:content-[''] sm:mt-[-1px] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-full before:h-full before:bg-no-repeat before:bg-top before:-z-10 ">
       <Arabian />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 pt-24 pb-4">
         <div className="flex flex-col lg:flex-row justify-between items-center">
